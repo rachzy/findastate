@@ -12,23 +12,19 @@ export interface IOption {
 }
 
 interface IProps {
-  children: string;
   options: IOption[];
   buttonLabel: string;
   onClick: () => void;
 }
 
 const OptionsForm: React.FC<IProps> = ({
-  children,
   options,
   buttonLabel,
   onClick,
 }) => {
   return (
     <div className="options-form-container">
-      <Title>{children}</Title>
       <OptionsBox options={options} />
-      <Button onClick={onClick}>{buttonLabel}</Button>
     </div>
   );
 };

@@ -62,15 +62,17 @@ const App = () => {
   return (
     <MainWrapper center={true}>
       <HalfWrapper currentScreen={currentScreen} screenNumber={1}>
+        <Title>Country</Title>
+        <p>
+          Select The Country(ies)
+        </p>
         <OptionsForm
           options={countries}
           buttonLabel="Next"
           onClick={() => {
             console.log("hi");
           }}
-        >
-          Country
-        </OptionsForm>
+        />
       </HalfWrapper>
       <HalfWrapper
         currentScreen={currentScreen}

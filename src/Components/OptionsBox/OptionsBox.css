@@ -8,9 +8,27 @@ div.option {
 
     padding: 3vh;
     width: 100%;
-    background-color: white;
+    border-radius: 15vh;
+    box-shadow: 10px 15px 8px rgb(29, 29, 29);
+    
+    background-color: rgb(241, 241, 241);
+
+    transition: 0.2s all;
 }
 
-div.option input::after {
-    color: red;
+div.option:hover {
+    transform: scale(1.05);
 }
+
+div.option label {
+    color: rgb(83, 83, 83);
+    text-shadow: 1px 1px #464646;
+    font-family: DynaPuff, sans-serif;
+    font-size: 23px
+}
+
+div.option input[type="radio"] {
+    /* ...existing styles */
+    display: grid;
+    place-content: center;
+  }
