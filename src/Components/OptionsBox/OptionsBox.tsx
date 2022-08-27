@@ -34,7 +34,6 @@ const OptionsBox: React.FC<IProps> = ({ options }) => {
               name={option.title}
               type={"checkbox"}
               value={option.value}
-              checked={true}
             />
           </div>
         );

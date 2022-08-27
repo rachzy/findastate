@@ -2,4 +2,5 @@ h1.title {
     color: white;
     font-size: 10vh;
     text-align: center;
+    line-height: 5px;
 }
