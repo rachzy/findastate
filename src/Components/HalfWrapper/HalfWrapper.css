@@ -1,0 +1,48 @@
+    .half-wrapper {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+        width: 50%;
+        height: 100%;
+
+        animation: fadeIn 0.2s;
+    }
+
+    .half-wrapper.active {
+        display: flex;
+    }
+
+    .next-screen-btn {
+        display: none;
+
+        padding: 2vh;
+        color: rgb(1, 167, 196);
+        background: white;
+
+        width: 50%;
+
+        border: none;
+        border-radius: 2vh;
+
+        justify-content: center;
+        align-items: center;
+
+        font-size: 2.5vh;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 800;
+        letter-spacing: 2px;
+    }
+
+    @media screen and (max-width: 650px) {
+        .next-screen-btn {
+            display: flex;
+        }
+
+        .half-wrapper {
+            display: none;
+            width: 100%;
+        }
+    }

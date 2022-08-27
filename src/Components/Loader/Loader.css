@@ -1,0 +1,27 @@
+.loader {
+    margin: 0 0 2em;
+    height: 100px;
+    width: 10%;
+    text-align: center;
+    padding: 1em;
+    margin: 0 auto 1em;
+    display: inline-block;
+    vertical-align: top;
+
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    animation: fadeIn 1s;
+}
+
+/*
+    Set the color of the icon
+  */
+.loader svg path,
+.loader svg rect {
+    fill: rgb(1, 167, 196);
+
+}

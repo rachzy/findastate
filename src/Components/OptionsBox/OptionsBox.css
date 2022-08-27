@@ -1,0 +1,16 @@
+div.option {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 1vh;
+
+    padding: 3vh;
+    width: 100%;
+    background-color: white;
+}
+
+div.option input::after {
+    color: red;
+}

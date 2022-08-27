@@ -1,0 +1,18 @@
+button.default-btn {
+    padding: 2vh;
+    color: white;
+    background: rgb(1, 167, 196);
+    background: linear-gradient(42deg, rgba(1, 167, 196, 1) 41%, rgba(0, 8, 47, 1) 100%);
+    width: 100%;
+
+    border: none;
+    border-radius: 2vh;
+
+    font-size: 2.5vh;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+button.default-btn:hover {
+    transform: scale(1.05);
+}
