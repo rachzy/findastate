@@ -4,25 +4,25 @@ div.option {
     justify-content: space-around;
     align-items: center;
 
-    margin: 1vh;
+    margin: 1.2vh;
 
     padding: 3vh;
-    width: 100%;
-    border-radius: 15vh;
-    box-shadow: 10px 15px 8px rgb(29, 29, 29);
+    width: 90%;
+    border-radius: 3vh;
+    box-shadow: 11px 13px 13px rgb(25, 35, 39);
     
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(221, 220, 220);
 
-    transition: 0.2s all;
+    transition: 0.5s all;
 }
 
 div.option:hover {
-    transform: scale(1.05);
+    transform: scale(1.10);
 }
 
 div.option label {
-    color: rgb(83, 83, 83);
-    text-shadow: 1px 1px #464646;
+    color: rgb(65, 80, 97);
+    text-shadow: 1px 1px #2d373d;
     font-family: DynaPuff, sans-serif;
     font-size: 23px
 }
